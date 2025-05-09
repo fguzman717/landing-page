@@ -62,7 +62,7 @@ button {
 
 .secondary-text {
   font-size: 18px;
-  color: #e5e7eb;
+  color: #828488;
 }
 
 button {
@@ -84,9 +84,37 @@ button {
   margin: 50px;
 }
 
-/* .secondary-image {
+.information-header {
+  margin: 45px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
 
-} */
+.information-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  padding: 30px;
+}
+
+.information-container div {
+  height: 250px;
+  width: 200px;
+  margin: 20px;
+}
+
+.information-container p {
+  margin: 5px;
+  text-align: center;
+}
+
+.secondary-image {
+  height: 175px;
+  width: 200px;
+  border-radius: 10px;
+}
 
 /*
 *
