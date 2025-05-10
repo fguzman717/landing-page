@@ -62,12 +62,13 @@ button {
 
 .secondary-text {
   font-size: 18px;
-  color: #828488;
+  color: #94979d;
 }
 
-button {
+.hero-button {
   background-color: #3882f6;
   border: none;
+  color: #f9faf8;
   padding: 8px 32px;
   text-align: center;
   text-decoration: none;
@@ -114,6 +115,29 @@ button {
   height: 175px;
   width: 200px;
   border-radius: 10px;
+}
+
+.third-section {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 150px;
+}
+
+.quote {
+  text-align: left;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote-reference {
+  text-align: right;
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 36px;
 }
 
 /*
