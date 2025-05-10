@@ -30,15 +30,13 @@ body {
   color: #f9faf8;
 }
 
-/* .header-links {
-} */
-
 .header-links a {
   text-decoration: none;
   margin: 10px;
 }
 
 .hero-container {
+  height: 500px;
   padding: 50px;
   justify-content: space-evenly;
 }
@@ -62,13 +60,13 @@ button {
 
 .secondary-text {
   font-size: 18px;
-  color: #94979d;
+  color: #e5e7eb;
 }
 
 .hero-button {
   background-color: #3882f6;
   border: none;
-  color: #f9faf8;
+  color: #e5e7eb;
   padding: 8px 32px;
   text-align: center;
   text-decoration: none;
@@ -81,7 +79,8 @@ button {
 }
 
 .main-image {
-  width: 350px;
+  height: 400px;
+  width: 400px;
   margin: 50px;
 }
 
@@ -109,6 +108,7 @@ button {
 .information-container p {
   margin: 5px;
   text-align: center;
+  color: #1f2937;
 }
 
 .secondary-image {
@@ -128,25 +128,58 @@ button {
 .quote {
   text-align: left;
   color: #1f2937;
-  font-size: 36px;
+  font-size: 48px;
   font-style: italic;
   font-weight: 100;
+  padding: 0px 400px;
 }
 
 .quote-reference {
   text-align: right;
   color: #1f2937;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 36px;
+  padding: 0px 400px;
 }
 
-/*
-*
-*
-*
-*
-*
- */
+.fourth-section {
+  margin: 50px;
+  padding: 150px;
+}
+
+.call-to-action-container {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 150px;
+  padding: 50px 200px;
+  border-radius: 10px;
+}
+
+.cta-main-text {
+  font-size: 36px;
+  color: #f9faf8;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.call-to-action-text .secondary-text {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.call-to-action-button {
+  border: 2px solid white;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 7px;
+  margin: 30px;
+  font-size: 24px;
+}
 
 .footer {
   padding: 30px;
